@@ -8,4 +8,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="SearchViewTheme">
+        <item name="colorControlActivated">@color/amber500</item>
+        <item name="colorControlNormal">@color/green500</item>
+    </style>
+
 </resources>

@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setupSearchView();
 
         Intent intent = getIntent();
-        if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
+        if (intent.getAction().equals(Intent.ACTION_SEARCH)) {
             String query = intent.getStringExtra(SearchManager.QUERY);
             doMySearch(query);
         }
